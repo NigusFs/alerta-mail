@@ -15,12 +15,13 @@
 - **Descomprimir bites de una pagina python 2.7**
   * https://stackoverflow.com/questions/9445627/urllib2-opener-providing-wrong-charset
   - `*Hay que importar*: **import gzip ; import StringIO** `
-- **Json**
-  - https://docs.python.org/2/library/stdtypes.html#typesmapping
+- **Guardar datos en txt**
+  -https://people.sugarlabs.org/ignacio/Python/python+3.pdf
 - **Para omitir la verificacion de una pagina (ssl)**
   * https://stackoverflow.com/questions/27835619/urllib-and-ssl-certificate-verify-failed-error
+- **Json**
+  - https://docs.python.org/2/library/stdtypes.html#typesmapping  
 - **Mejorar un readme de github**
   * https://help.github.com/articles/basic-writing-and-formatting-syntax/
 - **Clonar un repositoria a ubuntu**
   - https://www.geeksforgeeks.org/how-to-install-configure-and-use-git-on-ubuntu/
-
