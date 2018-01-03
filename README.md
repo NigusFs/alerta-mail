@@ -16,7 +16,7 @@
   * https://stackoverflow.com/questions/9445627/urllib2-opener-providing-wrong-charset
   - `*Hay que importar*: **import gzip ; import StringIO** `
 - **Guardar datos en txt**
-  -https://people.sugarlabs.org/ignacio/Python/python+3.pdf
+  - https://people.sugarlabs.org/ignacio/Python/python+3.pdf
 - **Para omitir la verificacion de una pagina (ssl)**
   * https://stackoverflow.com/questions/27835619/urllib-and-ssl-certificate-verify-failed-error
 - **Json**
