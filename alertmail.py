@@ -4,8 +4,8 @@ import smtplib
 
 
 def sendd(msg,price,dif):
-	from_addr = 'automsgbot24@gmail.com'
-	to_addr  = 'nicolas.floress@mail.udp.cl'
+	from_addr = 'auto@gmail.com'
+	to_addr  = 'mail@gmail.com'
 	msg = "{}, ${}, vario ${}".format(msg,price,dif)
  
 	mime_msg=MIMEText(msg,"plain") #indica que el texto sea plano
@@ -17,7 +17,7 @@ def sendd(msg,price,dif):
  
 	server = smtplib.SMTP("smtp.gmail.com")
 	server.starttls()
-	server.login(from_addr,"1122334455_1")
+	server.login(from_addr,"pass")
 	server.sendmail(from_addr, to_addr, mime_msg.as_string())
 	server.quit()
 #sendd("ps4",122)
